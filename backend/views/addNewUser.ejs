@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add new user</title>
+</head>
+<body>
+    <form action="/api/users/" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Name"> <br>
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="Age"> <br>
+        <label>Team</label>
+        <input type="text" name="team" placeholder="Team"> <br> <br>
+
+        <input type="submit" name="Submit" value="Register">
+    </form>
+</body>
+</html>
