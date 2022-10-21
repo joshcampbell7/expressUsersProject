@@ -5,7 +5,7 @@ const CreateUser = () => {
     const [name,setName] = useState('')
     const [age,setAge] = useState()
     const [team,setTeam] = useState('')
-    const
+
 
     const handleSubmit = (e)=>{
         e.preventDefault()
